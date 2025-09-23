@@ -18,7 +18,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: '3.0-stable'
+        ref: '3.0'
 
     - name: Set up Go 1.21
       uses: actions/setup-go@v5
